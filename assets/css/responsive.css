@@ -1,0 +1,88 @@
+/* PC */
+@media (min-width: 64em){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+
+}
+
+/* Tablet */
+@media (max-width:63.9375em) and (min-width : 46.25em){
+    #header .mobile-menu-btn{
+        display: none;
+    }
+    .place-list .btn{
+        padding: 16px 24px;
+        border-radius: 30px;
+    }
+    #footer .social-list {
+        font-size: 40px;
+    }
+    #footer .copyright, #footer .copyright a{
+        font-size: 30px;
+    }
+    .cotact-infor{
+        line-height: 1.8;
+    }
+}
+/* Mobile */
+@media (max-width: 46.1875em){
+    .s-col-full,.s-full-width{
+        width: 100% !important;
+    }
+    #header {
+        overflow: hidden;
+    }
+    #header .search-icon{
+        display: none;
+    }
+    #slider .text-content{
+        bottom: 40px;
+    }
+    #slider .text-heading{
+        font-size: 35px;
+    }
+    #slider .text-discreption{
+        font-size: 20px;
+    }
+    #nav{
+        display: block;
+    }
+    #nav > li {
+        display: block;
+    }
+    #nav > li:first-child{
+        display: inline-block;
+    }
+    #nav .subnav{
+        position: initial;
+        background-color: #333;
+    }
+    #nav .subnav a{
+        color: #fff;
+        padding-left: 31px;
+        line-height: 41px;
+    }
+    #content .member-avatar{
+        width: 60%;
+    }
+    .contact-form{
+        margin-top: 8px;
+    }
+    .cotact-infor{
+        margin-bottom: 16px;
+    }
+    .place-list .btn{
+        text-align: center;
+    }
+    .cotact-infor{
+        line-height: 2;
+    }
+    #footer .social-list {
+        font-size: 46px;
+    }
+    #footer .copyright, #footer .copyright a{
+        font-size: 25px;
+    }
+}
+    
